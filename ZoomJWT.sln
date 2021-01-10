@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomJWT", "ZoomJWT.csproj", "{BB6ED206-7D57-4BE6-BAA3-D8D92AC6FAFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB6ED206-7D57-4BE6-BAA3-D8D92AC6FAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6ED206-7D57-4BE6-BAA3-D8D92AC6FAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6ED206-7D57-4BE6-BAA3-D8D92AC6FAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6ED206-7D57-4BE6-BAA3-D8D92AC6FAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E551C091-90A1-452D-87CD-A800EB7810EA}
+	EndGlobalSection
+EndGlobal
