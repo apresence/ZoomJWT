@@ -15,10 +15,14 @@ To use, compile the DLL and add a reference to it in your C# project.  Then, use
 
 Here is some example code for use with the Zoom Client SDK C# Wrapper:
 ```C#
-sdkErr = CZoomSDKeDotNetWrap.Instance.GetAuthServiceWrap().SDKAuth(new AuthContext()
-{
-    jwt_token = ZoomJWT.CreateClientSDKToken(YOUR_SDK_KEY, YOUR_SDK_SECRET),
-});
+using static ZoomJWT.CZoomJWT;
+
+...
+
+    sdkErr = CZoomSDKeDotNetWrap.Instance.GetAuthServiceWrap().SDKAuth(new AuthContext()
+    {
+        jwt_token = CreateClientSDKToken(YOUR_SDK_KEY, YOUR_SDK_SECRET),
+    });
 ```
 
 If you need to use the Zoom API, it requires a different type of token.  Example:
