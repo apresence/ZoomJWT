@@ -12,6 +12,7 @@ namespace ZoomJWT
     /// Wrapper class for functions used to create Java Web Tokens for use with Zoom APIs.  At the time this library was written, the information on how to
     /// generate these tokens was not available in any one place, and a reliable implementation in C# could not be found.  This is an amalgamation of the
     /// following:
+    ///   https://marketplace.zoom.us/docs/guides/auth/jwt
     ///   https://github.com/zoom/zoom-sdk-windows/blob/master/CHANGELOG.md#new-sdk-initialization-method-using-jwt-token
     ///   https://devforum.zoom.us/t/zoom-sdk-initialize-failed-when-running-the-sample-project/26511
     ///   https://devforum.zoom.us/t/how-to-create-jwt-token-using-rest-api-in-c/6620
