@@ -31,7 +31,7 @@ using static ZoomJWT.CZoomJWT;
 
 ...
 
-    Console.WriteLine("Your API token is: " + ZoomJWT.CreateAPIToken(YOUR_API_KEY, YOUR_API_SECRET));
+    Console.WriteLine("Your API token is: " + CreateAPIToken(YOUR_API_KEY, YOUR_API_SECRET));
 ```
 
 Contributions by the community are welcome!
