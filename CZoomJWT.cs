@@ -17,7 +17,7 @@ namespace ZoomJWT
     ///   https://devforum.zoom.us/t/zoom-sdk-initialize-failed-when-running-the-sample-project/26511
     ///   https://devforum.zoom.us/t/how-to-create-jwt-token-using-rest-api-in-c/6620
     /// </summary>
-    public static class ZoomJWT
+    public static class CZoomJWT
     {
         /// <summary>
         /// Creates a Java Web Token for use with the Zoom Client SDK: https://marketplace.zoom.us/docs/sdk/native-sdks/introduction.
