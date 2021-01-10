@@ -27,7 +27,11 @@ using static ZoomJWT.CZoomJWT;
 
 If you need to use the Zoom API, it requires a different type of token.  Example:
 ```C#
-Console.WriteLine("Your API token is: " + ZoomJWT.CreateAPIToken(YOUR_API_KEY, YOUR_API_SECRET));
+using static ZoomJWT.CZoomJWT;
+
+...
+
+    Console.WriteLine("Your API token is: " + ZoomJWT.CreateAPIToken(YOUR_API_KEY, YOUR_API_SECRET));
 ```
 
 Contributions by the community are welcome!
