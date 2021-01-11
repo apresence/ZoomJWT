@@ -11,7 +11,7 @@ Eseentially, this project is an amalgamation of the following:
 
 This library was written primarily for use with the [Zoom Client SDK C# Wrapper](https://marketplace.zoom.us/docs/sdk/native-sdks/windows/c-sharp-wrapper) as part of my [In-Meeting Zoom Bot SDK](https://github.com/apresence/ZoomMeetingBotSDK) project.  It can be used to generate valid JWTs for any Zoom APIs, and those generated JWTs can be used from any programming language.  The CreateToken() function should even work with other applications besides Zoom, but this has not been tested.
 
-To use, compile the DLL and add a reference to it in your C# project.  Then, use the library to generate and use a token (A key and secret are required, please consult the appropriate Zoom [Client SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/introduction) or [API](https://marketplace.zoom.us/docs/guides/auth/jwt#key-secret) documentation for details).
+To use, extract the release ZIP file and/or compile the DLL and add a reference to it in your C# project.  Then, use the library to generate and use a token (A key and secret are required, please consult the appropriate Zoom [Client SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/introduction) or [API](https://marketplace.zoom.us/docs/guides/auth/jwt#key-secret) documentation for details).
 
 Here is some example code for use with the Zoom Client SDK C# Wrapper:
 ```C#
