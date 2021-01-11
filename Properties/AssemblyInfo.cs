@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ZoomJWT")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("C# Library (.NET Framework) for creating Java Web Tokens for use with Zoom APIs, SDKs, etc.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("zerodayvenerabilities.com")]
 [assembly: AssemblyProduct("ZoomJWT")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright © 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
