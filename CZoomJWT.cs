@@ -1,13 +1,10 @@
-﻿using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ZoomJWT
+﻿namespace ZoomJWT
 {
+    using System;
+    using System.IdentityModel.Tokens.Jwt;
+    using System.Text;
+    using Microsoft.IdentityModel.Tokens;
+
     /// <summary>
     /// Wrapper class for functions used to create Java Web Tokens for use with Zoom APIs.  At the time this library was written, the information on how to
     /// generate these tokens was not available in any one place, and a reliable implementation in C# could not be found.  This is an amalgamation of the
